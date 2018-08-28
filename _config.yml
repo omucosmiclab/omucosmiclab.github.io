@@ -11,9 +11,9 @@ text: Cyber Security and Implementations of Cryptography
 description: > # this means to ignore newlines until "baseurl:"
  Ashwathama is a minimal website with an app like design. It also features card layouts for website elements.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://webjeda.com/ashwath/"
+url: ""
 permalink: :title/
-full-url: "http://webjeda.com/ashwathama/" # the base hostname & protocol for your site
+full-url: "" # the base hostname & protocol for your site
 
 
 # CSS
