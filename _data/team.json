@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Sedat Akleylek",
+        "title": "Doç. Dr. / Öğretim Üyesi",
+        "image": "akleylek.png",
+        "github": "#",
+        "twitter": "#",
+        "linkedin": "#",
+        "website": "#"
+    },
+    {
+        "name": "Muhammet Öztürk",
+        "title": "Lisans / 4. Sınıf",
+        "image": "ozturk.jpeg",
+        "github": "https://github.com/ozmu",
+        "twitter": "https://twitter.com/ozturkmuhammeet",
+        "linkedin": "https://linkedin.com/in/muhammetozturk",
+        "website": "https://ozturkm.com"
+    }
+]

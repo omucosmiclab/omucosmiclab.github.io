@@ -1,0 +1,58 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+{% include team.html %}
+
+<body>
+    {% include sidebar.html %}
+
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->   
+        <div id="main">
+
+             {% include header.html %}
+                    <div class="page-content">
+                        <div class="wrapper">
+                            <div class="row">
+                                    {% for person in site.data.team %}
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="our-team">
+                                                <div class="pic">
+                                                    <img src="{{ site.url }}/images/team/{{ person.image }}">
+                                                    <ul class="social">
+                                                        <li><a href="{{ person.website }}" class="fa fa-globe" target="_blank"></a></li>
+                                                        <li><a href="{{ person.github }}" class="fa fa-github" target="_blank"></a></li>
+                                                        <li><a href="{{ person.twitter }}" class="fa fa-twitter" target="_blank"></a></li>
+                                                        <li><a href="{{ person.linkedin }}" class="fa fa-linkedin" target="_blank"></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="team-content">
+                                                    <h3 class="title">{{ person.name }}</h3>
+                                                    <span class="post">{{ person.title }}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                        </div>
+                    {% include footer.html %}
+                    </div>
+                {% if site.analytics %}
+                    {% include analytics.html %}
+                {% endif %}  
+                <script>
+                    /* Set the width of the side navigation to 250px */
+                    function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                    }
+
+                    /* Set the width of the side navigation to 0 */
+                    function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                    }
+                </script>
+        </div>            
+    </body>
+</html>

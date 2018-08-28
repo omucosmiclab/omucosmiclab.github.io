@@ -5,6 +5,6 @@ permalink: /hakkimizda/
 show-in-menu: yes
 ---
 
-asdasdas
+Hakkımızda içeriği
 
 **Does the theme deserve a star?**
