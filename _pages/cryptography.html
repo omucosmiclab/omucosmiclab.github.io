@@ -1,0 +1,15 @@
+---
+layout: page
+permalink: /kriptoloji/
+title: Kriptoloji!
+---
+
+  <div class="post-list">
+    {% for post in site.categories.kriptoloji %}
+     <a href="{{ post.url | prepend: site.baseurl }}">
+        {% include post-cards.html %}
+      </a>
+    {% endfor %}
+  </div>
+
+

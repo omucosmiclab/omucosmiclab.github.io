@@ -1,0 +1,13 @@
+---
+layout: page
+permalink: /siber-guvenlik/
+title: Siber Güvenlik!
+---
+
+ <div class="post-list">
+    {% for post in site.categories.siber-guvenlik %}
+     <a href="{{ post.url | prepend: site.baseurl }}">
+      {% include post-cards.html %}
+      </a>
+    {% endfor %}
+</div>
