@@ -7,9 +7,9 @@
 
 # Site settings
 title: CosmicLab
-text: Cyber Security and Implementations of Cryptography
+text: Siber Güvenlik ve Kriptoloji Laboratuvarı
 description: > # this means to ignore newlines until "baseurl:"
- Ashwathama is a minimal website with an app like design. It also features card layouts for website elements.
+  Cosmic Lab, Ondokuz Mayıs Üniversitesi Mühendislik Fakültesi'nde bulunan, siber güvenlik ve kriptoloji laboratuvarıdır.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: ""
 permalink: :title/
